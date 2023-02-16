@@ -4,3 +4,4 @@ assembler
 name
 using 'puts'
 using printf
+sizes
