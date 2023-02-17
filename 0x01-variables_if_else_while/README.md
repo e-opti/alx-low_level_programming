@@ -7,3 +7,4 @@ single digit
 using putchar
 reverse
 hex
+combination
