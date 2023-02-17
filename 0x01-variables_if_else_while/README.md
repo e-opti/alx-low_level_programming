@@ -6,3 +6,4 @@ except q and e
 single digit
 using putchar
 reverse
+hex
