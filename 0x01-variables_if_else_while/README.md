@@ -5,3 +5,4 @@ lower and upper
 except q and e
 single digit
 using putchar
+reverse
