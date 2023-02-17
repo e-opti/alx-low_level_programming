@@ -9,7 +9,7 @@ int main(void)
 {
 	char loal;
 
-	for (loal = 'z'; loal <= 'a'; loal++)
+	for (loal = 'z'; loal >= 'a'; loal--)
 		putchar(loal);
 	putchar('\n');
 
