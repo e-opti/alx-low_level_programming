@@ -11,7 +11,7 @@ int main(void)
 
 	for (dg = 0; dg < 10; dg++)
 	{
-		putchar(dg);
+		printf("%i", dg);
 	}
 	putchar('\n');
 
