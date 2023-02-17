@@ -9,8 +9,8 @@ int main(void)
 	char apb;
 
 	for (apb = 'a'; apb <= 'z'; apb++)
-		while (apb != 'q' && apb != 'e')
-		{
+	{
+		if (apb != 'q' && apb != 'e')
 			putchar(apb);
 		}
 	putchar('\n');
