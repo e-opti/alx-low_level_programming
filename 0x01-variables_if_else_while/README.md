@@ -10,3 +10,4 @@ hex
 combination
 double combination
 triple combination
+two digit
