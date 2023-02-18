@@ -17,11 +17,11 @@ int main(void)
 		{
 			for (twos = ones + 1; twos <= 9; twos++)
 			{
-				putchar(tens + '0');
-				putchar(ones + '0');
-				putchar(twos + '0');
+				putchar(tens);
+				putchar(ones);
+				putchar(twos);
 
-				if (tens < 7 && ones < 8 && twos < 9)
+				if (tens != 7 || ones != 8 || twos != 9)
 				{
 					putchar(',');
 					putchar(' ');
