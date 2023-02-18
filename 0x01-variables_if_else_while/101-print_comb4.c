@@ -7,31 +7,26 @@
  */
 int main(void)
 {
-	int tens;
-	int ones;
-	int twos;
+	int digit1, digit2, digit3;
 
-	for (tens = 0; tens <= 9; tens++)
+	for (digit1 = 0; digit1 < 8; digit1++)
 	{
-		for (ones = tens + 1; ones <= 9; ones++)
+		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
 		{
-			for (twos = ones + 1; twos <= 9; twos++)
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
-				putchar(tens);
-				putchar(ones);
-				putchar(twos);
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
 
-				if (tens != 7 || ones != 8 || twos != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+				putchar(',');
+				putchar(' ');
 			}
-
 		}
-
 	}
+
 	putchar('\n');
 
 	return (0);
