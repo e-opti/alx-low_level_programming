@@ -9,3 +9,4 @@ reverse
 hex
 combination
 double combination
+triple combination
