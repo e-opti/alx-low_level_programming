@@ -13,10 +13,10 @@ void times_table(void)
 		_putchar(0);
 		for (lg = 0; lg < 10; lg++)
 		{
-			mul = sh * lg;
-
 			_putchar(',');
 			_putchar(' ');
+
+			mul = sh * lg;
 
 			if (mul < 10)
 				_putchar(' ');
