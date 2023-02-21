@@ -3,7 +3,7 @@
 /**
  *print_to_98 - range
  *
- *@n - start
+ *@n: start
  */
 void print_to_98(int n)
 {
