@@ -5,7 +5,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * largest
+ * largest: result
  * Return: largest number
  */
 
