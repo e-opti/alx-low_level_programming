@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *print_line - draw a line
+ *print_diagonal - draw a diagonal
  *@n: num of times
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int a;
 
