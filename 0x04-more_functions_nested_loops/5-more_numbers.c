@@ -5,13 +5,13 @@
  */
 void more_numbers(void)
 {
-	int d, c;
+	int c, d;
 
-	for (c = '0'; c <= '14'; c++)
+	for (d = 1; d <= 10; d++)
 	{
-		for (d = 1; d <= 10; d++)
+		for (c = '0'; c <= '14'; c++)
 		{
-			_putchar(d);
+			_putchar(c);
 		}
 		_putchar('\n');
 	}
