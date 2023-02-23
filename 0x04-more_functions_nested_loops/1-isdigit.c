@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigt - is a digit
+ * _isdigit - is a digit
  *
  * @c: character
  *
