@@ -5,7 +5,7 @@
  */
 void more_numbers(void)
 {
-	int c, d;
+	int d, c;
 
 	for (c = '0'; c <= '14'; c++)
 	{
